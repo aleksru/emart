@@ -1,0 +1,12 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/js/manifest.js": "/js/manifest.js?id=41f053ba9a94d81b39f8",
+    "/js/vendor.js": "/js/vendor.js?id=974e0dd340a804cf3075",
+    "/js/vendors.js": "/js/vendors.js?id=3669aa6e10221ec4f3d4",
+    "/compiled/js/modules/media/app.js": "/compiled/js/modules/media/app.js",
+    "/compiled/css/modules/media/app.css": "/compiled/css/modules/media/app.css",
+    "/compiled/js/modules/admin/app.js": "/compiled/js/modules/admin/app.js",
+    "/compiled/js/modules/admin/app.css": "/compiled/js/modules/admin/app.css",
+    "/compiled/css/modules/admin/app.css": "/compiled/css/modules/admin/app.css"
+}
