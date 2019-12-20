@@ -1,22 +1,20 @@
 <div class="form-group">
-    <label for="{{ $name }}" class="col-sm-2 control-label">
+    <label for="{{ $name }}">
         {{ $label }}
     </label>
-    <div class="col-sm-8">
-        <textarea id="{{ $name }}" name="{{ $name }}" class="rich-editor-{{ $type ?? 'full' }}">
-            {{ $slot }}
-        </textarea>
-    </div>
+    <textarea id="{{ $name }}" name="{{ $name }}" class="rich-editor-{{ $type ?? 'full' }}">
+        {{ $slot }}
+    </textarea>
 </div>
 
-@pushonce('script', 'ckeditor')
+@prepend('script')
     <script src="{{ asset('assets/vendors/ckeditor/ckeditor.js') }}"></script>
     <script src="{{ asset('assets/vendors/ckeditor/adapters/jquery.js') }}"></script>
-@endpushonce
+@endprepend
 @push('script')
-    <script>
-        $(function () {
-            $('#{{ $name }}').ckeditor();
-        })
-    </script>
+<script>
+    $(function () {
+        $('#{{ $name }}').ckeditor();
+    })
+</script>
 @endpush
