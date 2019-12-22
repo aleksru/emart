@@ -1,14 +1,44 @@
-// iziToast
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700");
+
+// Select 2
+@import "~admin-lte/plugins/select2-bootstrap4-theme/select2-bootstrap4.css";
+@import "~admin-lte/plugins/select2/css/select2.css";
+
+// Dropzone
+@import "~dropzone/dist/min/dropzone.min.css";
+
+// Font Awesome
+@import "~admin-lte/plugins/fontawesome-free/css/all.css";
+
+// AdminLTE
+@import "~admin-lte/dist/css/adminlte.css";
+
+//iziToast
 @import "~izitoast/dist/css/iziToast.css";
+
+// Datatables
+@import "~datatables.net-bs4/css/dataTables.bootstrap4.css";
+
+//Awesome bootstrap checkbox
+@import "~awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css";
 
 // Air-Datepicker
 @import "~air-datepicker/dist/css/datepicker.css";
 
-// Select 2
-@import "~select2/dist/css/select2.css";
+//Vue-multiselect
+@import "~vue-multiselect/dist/vue-multiselect.min.css";
 
-// Datatables
-@import "~datatables.net-bs/css/dataTables.bootstrap.css";
+// Overrides
+//@import "overrides";
 
-// Font Awesome
-@import "~font-awesome/scss/font-awesome.scss";
+// Hide Vue
+[v-cloak] {
+  display: none;
+}
+
+// Tiny MCE autoresize
+.mce-btn-group .mce-btn {
+  float: left;
+}

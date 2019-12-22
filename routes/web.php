@@ -11,9 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('admin::layouts.adminlte');
-});
 
 Auth::routes();
 

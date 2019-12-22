@@ -1,20 +1,15 @@
-<div class="form-group">
-    <label for="{{ $name }}">
-        {{ $label }}
-    </label>
-    <textarea id="{{ $name }}" name="{{ $name }}" class="rich-editor-{{ $type ?? 'full' }}">
-        {{ $slot }}
-    </textarea>
-</div>
 
-@prepend('script')
-    <script src="{{ asset('assets/vendors/ckeditor/ckeditor.js') }}"></script>
-    <script src="{{ asset('assets/vendors/ckeditor/adapters/jquery.js') }}"></script>
-@endprepend
+<label>{{ $label }}</label>
+<textarea id="{{ $name }}" name="{{ $name }}">{{ $slot }}</textarea>
+
 @push('script')
-<script>
-    $(function () {
-        $('#{{ $name }}').ckeditor();
-    })
-</script>
+    <script>
+        $(function () {
+            ClassicEditor
+                .create( document.querySelector( '#{{ $name }}' ) )
+                .catch( error => {
+                    console.error( error );
+                } );
+        })
+    </script>
 @endpush

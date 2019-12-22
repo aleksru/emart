@@ -1,6 +1,6 @@
 @if (!empty($edit))
     <a href="{{ $edit['route'] }}" class="btn btn-xs btn-primary">
-        <i class="fa fa-pencil"></i> 
+        <i class="fas fa-pen"></i>
     </a>
 @endif
 @if (!empty($delete))

@@ -9,15 +9,9 @@ window.iziToast = require('izitoast');
  */
 const settings = {
     notification: {
-        maxWidth: 400,
-        layout: 2,
         position: 'topRight',
-        theme: 'light',
-        transitionIn: 'bounceInDown',
-        transitionOut: 'fadeOutUp',
-        transitionInMobile: 'fadeInUp',
-        transitionOutMobile: 'fadeOutDown',
-        timeout: 4000,
+        transitionIn: 'fadeInLeft',
+        maxWidth: 400,
     },
     
     modal: {
@@ -32,6 +26,7 @@ const settings = {
         transitionOut: 'fadeOutUp',
         transitionInMobile: 'fadeInUp',
         transitionOutMobile: 'fadeOutDown',
+        animateInside: true,
     }
 }
 
@@ -46,15 +41,13 @@ module.exports = {
      */
     success(message, options = { }) {
         let id = options.id || 'toast-' + (new Date().getUTCMilliseconds());
-        iziToast.show(Object.assign(settings[options.type || 'notification'], {
+        iziToast.success({
             id: id,
             title: options.title || 'Успех!',
-            message: message,
+            message: message || 'Успех!',
             timeout: options.timeout || 4000,
-            color: '#81c784',
-            icon: 'fa fa-check',
-            buttons: [],
-        }));
+            ...settings.notification
+        });
         return id;
     },
 
@@ -67,15 +60,13 @@ module.exports = {
      */
     error(message, options = { }) {
         let id = options.id || 'toast-' + (new Date().getUTCMilliseconds());
-        iziToast.show(Object.assign(settings[options.type || 'notification'], {
+        iziToast.error({
             id: id,
             title: options.title || 'Ошибка!',
             message: message,
             timeout: options.timeout || 4000,
-            color: '#ef5350',
-            icon: 'fa fa-ban',
-            buttons: [],
-        }));
+            ...settings.notification
+        });
         return id;
     },
 
@@ -88,14 +79,12 @@ module.exports = {
      */
     warning(message, options = { }) {
         let id = options.id || 'toast-' + (new Date().getUTCMilliseconds());
-        iziToast.show(Object.assign(settings[options.type || 'notification'], {
+        iziToast.warning(Object.assign(settings[options.type || 'notification'], {
             id: id,
             title: options.title || 'Предупреждение!',
             message: message,
             timeout: options.timeout || 4000,
-            color: '#ffb74d',
-            icon: 'fa fa-warning',
-            buttons: [],
+            ...settings.notification
         }));
         return id;
     },
@@ -109,15 +98,13 @@ module.exports = {
      */
     info(message, options = { }) {
         let id = options.id || 'toast-' + (new Date().getUTCMilliseconds());
-        iziToast.show(Object.assign(settings[options.type || 'notification'], {
+        iziToast.info({
             id: id,
             title: options.title || 'Внимание!',
             message: message,
             timeout: options.timeout || 4000,
-            color: '#4fc3f7',
-            icon: 'fa fa-info',
-            buttons: [],
-        }));
+            ...settings.notification
+        });
         return id;
     },
 
@@ -130,16 +117,15 @@ module.exports = {
      */
     loading(message, options = { }) {
         let id = options.id || 'toast-' + (new Date().getUTCMilliseconds());
-        iziToast.show(Object.assign(settings[options.type || 'notification'], {
+        iziToast.warning({
             id: id,
             title: options.title || 'Загрузка...',
             message: message,
             timeout: options.timeout || false,
-            color: '#ffb74d',
             icon: 'fa fa-spinner fa-spin',
             animateInside: false,
-            buttons: [],
-        }));
+            ...settings.notification
+        });
         return id;
     },
 
@@ -154,13 +140,18 @@ module.exports = {
      */
     confirm(message, confirm, cancel, options = { }) {
         let id = options.id || 'toast-' + (new Date().getUTCMilliseconds());
-        iziToast.show(Object.assign(settings[options.type || 'modal'], {
+        iziToast.question({
             id: id,
             title: options.title || 'Внимание!',
             message: message,
             timeout: options.timeout || false,
-            color: '#fff176',
             icon: 'fa fa-question',
+            close: false,
+            overlay: true,
+            displayMode: 'once',
+            zindex: 999,
+            position: 'center',
+            maxWidth: 450,
             buttons: [
                 [`<button><b>Да</b></button>`, function (instance, toast) {
                     instance.hide({
@@ -179,7 +170,7 @@ module.exports = {
                         cancel();
                 }, true]
             ]
-        }));
+        });
         return id;
     },
 

@@ -8,18 +8,28 @@ window.Dropzone = require('dropzone');
  */
 
 try {
+    window.$ = window.jQuery = require('jquery');
+
+    //Ajax setup
     $.ajaxSetup({
         headers: {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
     });
-    require('datatables.net');          //DataTables Script
-    require('datatables.net-bs');       //DataTables Bootstrap Script
+    require('bootstrap');
+    require('admin-lte/plugins/bootstrap-switch/js/bootstrap-switch');
+    require('admin-lte');
+    require('admin-lte/plugins/select2/js/select2.full.js');
     require('jquery-slimscroll');
-    require('select2');                 //Select2
+    require('datatables.net');          //DataTables Script
+    require('datatables.net-bs4');       //DataTables Bootstrap Script
+    require('jquery-slimscroll');
+    window.ClassicEditor = require ('@ckeditor/ckeditor5-build-classic');
     require('air-datepicker');
 
-} catch (e) {}
+} catch (e) {
+    console.log(e);
+}
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
@@ -54,3 +64,13 @@ window.copyToClipboard      = function (text) {
     document.execCommand('copy');
     document.body.removeChild(textarea);
 }
+
+window.Vue = require('vue');
+Vue.component('vue-select', require('./components/VueSelect.vue').default);
+
+const app = new Vue({
+    el: '#app',
+    data: {
+
+    }
+});

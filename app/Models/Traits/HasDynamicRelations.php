@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Models\Traits;
+use Illuminate\Support\Arr;
 
 /**
  * Позволяет динамически подгружать отношения для моделей.
@@ -24,7 +25,7 @@ trait HasDynamicRelations
      */
     public static function registerDynamicRelation($method, \Closure $closure)
     {
-        array_set(static::$dynamicRelations, static::class. '.' . $method, $closure);
+        Arr::set(static::$dynamicRelations, static::class. '.' . $method, $closure);
     }
 
     /**
@@ -34,7 +35,7 @@ trait HasDynamicRelations
      */
     public static function clearDynamicRelation($method)
     {
-        if (array_has(static::$dynamicRelations, static::class. '.' . $method))
+        if (Arr::has(static::$dynamicRelations, static::class. '.' . $method))
             unset(static::$dynamicRelations[static::class][$method]);
     }
 
@@ -54,7 +55,7 @@ trait HasDynamicRelations
         /**
          * Проверяем наличие отношение в массиве динамических отношений.
          */
-        if ($relationMethod = array_get(static::$dynamicRelations, static::class . '.' . $method)) {
+        if ($relationMethod = Arr::get(static::$dynamicRelations, static::class . '.' . $method)) {
             return $relationMethod($this, ...$parameters);
         }
 
@@ -80,7 +81,7 @@ trait HasDynamicRelations
         // it is a relationship and will load and return results from the query
         // and hydrate the relationship's value on the "relationships" array.
         // Дополняем этот метод еще одной проверкой в массиве динамических отношений.
-        if (method_exists($this, $key) || array_has(static::$dynamicRelations, static::class. '.' . $key)) {
+        if (method_exists($this, $key) || Arr::has(static::$dynamicRelations, static::class. '.' . $key)) {
             return $this->getRelationshipFromMethod($key);
         }
     }

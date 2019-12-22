@@ -1,7 +1,451 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6869ee8-e1f8-4c8b-bbca-15c722014035" name="Default" comment="" />
+    <list default="true" id="a6869ee8-e1f8-4c8b-bbca-15c722014035" name="Default" comment="base #1">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Config/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Console/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Database/Migrations/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Database/Seeders/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Database/factories/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Entities/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Http/Controllers/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Http/Middleware/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Http/Requests/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Providers/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Resources/assets/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Resources/lang/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Resources/views/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Routes/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Tests/Feature/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Tests/Unit/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/user2-160x160.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Admin/Config/menu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/assets/js/components/VueSelect.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/breadcrumbs.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/footer.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/menu/item.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/menu/list.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/meta.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/nav_left_menu.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/nav_links.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/nav_right.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/right_sidebar.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/search.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/user_panel.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/checkbox.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Config/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Database/Migrations/2019_12_17_175447_create_categories_table.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Database/Seeders/CategoryDatabaseSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Entities/Category.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Http/Controllers/CategoryController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Http/Requests/CategoryRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Providers/CategoryServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Providers/RouteServiceProvider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Resources/assets/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Resources/assets/sass/app.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Resources/views/admin/form.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Resources/views/admin/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Resources/views/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Resources/views/layouts/master.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Routes/api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/Routes/web.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/module.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modules/Category/webpack.mix.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/index.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/adminlte.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/master.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/adminlte.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/CHANGES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/adapters/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/build-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/ckeditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/contents.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/az.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/about/dialogs/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/colordialog/dialogs/colordialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/colordialog/dialogs/colordialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/copyformatting/cursors/cursor-disabled.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/copyformatting/cursors/cursor.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/copyformatting/styles/copyformatting.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/div/dialogs/div.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/find/dialogs/find.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/flash/dialogs/flash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/flash/images/placeholder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/forms/dialogs/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/forms/dialogs/checkbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/forms/dialogs/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/forms/dialogs/hiddenfield.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/forms/dialogs/radio.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/forms/dialogs/select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/forms/dialogs/textarea.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/forms/dialogs/textfield.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/forms/images/hiddenfield.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/icons_hidpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/iframe/dialogs/iframe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/iframe/images/placeholder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/image/dialogs/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/image/images/noimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/link/dialogs/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/link/dialogs/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/link/images/anchor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/link/images/hidpi/anchor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/liststyle/dialogs/liststyle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/magicline/images/hidpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/magicline/images/icon-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/magicline/images/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/pagebreak/images/pagebreak.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/pastefromword/filter/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/preview/preview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/scayt/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/scayt/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/scayt/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/scayt/dialogs/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/scayt/dialogs/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/showblocks/images/block_address.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/showblocks/images/block_blockquote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/showblocks/images/block_div.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/showblocks/images/block_h1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/showblocks/images/block_h2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/showblocks/images/block_h3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/showblocks/images/block_h4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/showblocks/images/block_h5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/showblocks/images/block_h6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/showblocks/images/block_p.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/showblocks/images/block_pre.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/dialogs/smiley.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/angel_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/angel_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/angry_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/angry_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/broken_heart.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/broken_heart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/confused_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/confused_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/cry_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/cry_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/devil_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/devil_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/embaressed_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/embarrassed_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/embarrassed_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/envelope.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/envelope.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/heart.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/heart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/kiss.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/kiss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/lightbulb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/lightbulb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/omg_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/omg_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/regular_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/regular_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/sad_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/sad_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/shades_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/shades_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/teeth_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/teeth_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/thumbs_down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/thumbs_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/thumbs_up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/thumbs_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/tongue_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/tongue_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/tounge_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/wink_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/smiley/images/wink_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/af.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/az.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/en-au.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/oc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/tt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/table/dialogs/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/tableselection/styles/tableselection.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/templates/dialogs/templates.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/templates/dialogs/templates.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/templates/templates/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/templates/templates/images/template1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/templates/templates/images/template2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/templates/templates/images/template3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/widget/images/handle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/wsc/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/wsc/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/dialog_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/dialog_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/dialog_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/editor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/editor_gecko.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/editor_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/editor_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/editor_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/icons_hidpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/images/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/images/hidpi/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/images/hidpi/lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/images/lock-open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/images/lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/images/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/images/spinner.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/skins/moono-lisa/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/vendors/ckeditor/styles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/adminlte.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/adminlte.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/adminlte.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/css/adminlte.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/js/adminlte.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/js/adminlte.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/js/adminlte.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/js/adminlte.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.bundle.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/bootstrap/js/bootstrap.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/css/all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/css/all.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/css/brands.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/css/brands.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/css/fontawesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/css/fontawesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/css/regular.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/css/regular.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/css/solid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/css/solid.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/css/svg-with-js.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/css/svg-with-js.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/css/v4-shims.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/css/v4-shims.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/webfonts/fa-brands-400.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/webfonts/fa-brands-400.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/webfonts/fa-brands-400.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/webfonts/fa-brands-400.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/webfonts/fa-brands-400.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/webfonts/fa-regular-400.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/webfonts/fa-regular-400.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/webfonts/fa-regular-400.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/webfonts/fa-regular-400.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/webfonts/fa-regular-400.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/webfonts/fa-solid-900.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/webfonts/fa-solid-900.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/webfonts/fa-solid-900.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/webfonts/fa-solid-900.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/fontawesome-free/webfonts/fa-solid-900.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/jquery/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/jquery/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/overlayScrollbars/css/OverlayScrollbars.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/overlayScrollbars/css/OverlayScrollbars.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/overlayScrollbars/js/OverlayScrollbars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/overlayScrollbars/js/OverlayScrollbars.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/overlayScrollbars/js/jquery.overlayScrollbars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/overlayScrollbars/js/jquery.overlayScrollbars.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/esm/popper-utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/esm/popper-utils.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/esm/popper-utils.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/esm/popper-utils.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/esm/popper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/esm/popper.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/esm/popper.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/esm/popper.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/popper-utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/popper-utils.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/popper-utils.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/popper-utils.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/popper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/popper.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/popper.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/popper.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/umd/popper-utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/umd/popper-utils.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/umd/popper-utils.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/umd/popper-utils.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/umd/popper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/umd/popper.js.flow" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/umd/popper.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/umd/popper.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/vendor/popper/umd/popper.min.js.map" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/vendor/adminlte/dist/img/AdminLTELogo.png" afterPath="$PROJECT_DIR$/public/img/AdminLTELogo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env.example" afterPath="$PROJECT_DIR$/.env.example" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Admin/Providers/AdminServiceProvider.php" afterPath="$PROJECT_DIR$/Modules/Admin/Providers/AdminServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Admin/Resources/assets/js/app.js" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/assets/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Admin/Resources/assets/js/notifications.js" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/assets/js/notifications.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Admin/Resources/assets/sass/app.scss" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/assets/sass/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/master.blade.php" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/master.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/parts/datatable/actions.blade.php" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/parts/datatable/actions.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/parts/datatable/datatable.blade.php" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/parts/datatable/datatable.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/parts/datatable/toggle.blade.php" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/parts/datatable/toggle.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/input.blade.php" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/input.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/richeditor.blade.php" afterPath="$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/richeditor.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Media/Resources/views/admin/form/images.blade.php" afterPath="$PROJECT_DIR$/Modules/Media/Resources/views/admin/form/images.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modules/Media/Routes/web.php" afterPath="$PROJECT_DIR$/Modules/Media/Routes/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Traits/HasDynamicRelations.php" afterPath="$PROJECT_DIR$/app/Models/Traits/HasDynamicRelations.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/image.php" afterPath="$PROJECT_DIR$/config/image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules_statuses.json" afterPath="$PROJECT_DIR$/modules_statuses.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/compiled/css/modules/admin/app.css" afterPath="$PROJECT_DIR$/public/compiled/css/modules/admin/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/compiled/js/modules/admin/app.js" afterPath="$PROJECT_DIR$/public/compiled/js/modules/admin/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,70 +456,85 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/assets/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/input.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="datetimepicker.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/datetimepicker.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="richeditor.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/richeditor.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Image.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Modules/Media/Models/Image.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-612">
-              <caret line="148" column="57" lean-forward="true" selection-start-line="148" selection-start-column="57" selection-end-line="148" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImagesController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Modules/Media/Http/Controllers/Admin/ImagesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-253">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modules/Media/Routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="51">
+              <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImagesController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Media/Http/Controllers/Admin/ImagesController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102">
+              <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Modules/Category/Entities/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <folding>
+                <element signature="e#45#70#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/master.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Category/Resources/views/admin/form.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="85" column="29" lean-forward="false" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+              <folding>
+                <marker date="1577028604307" expanded="true" signature="1324:1520" ph="..." />
+                <marker date="1577028604307" expanded="true" signature="1352:1519" ph="..." />
+                <marker date="1577028604307" expanded="true" signature="1794:1975" ph="..." />
+                <marker date="1577028604307" expanded="true" signature="1822:1974" ph="..." />
+                <marker date="1577028604307" expanded="true" signature="2858:3110" ph="..." />
+                <marker date="1577028604307" expanded="true" signature="2886:3109" ph="..." />
+                <marker date="1577028604307" expanded="true" signature="3470:3668" ph="..." />
+                <marker date="1577028604307" expanded="false" signature="3503:3667" ph="..." />
+                <marker date="1577028604307" expanded="true" signature="3953:4239" ph="..." />
+                <marker date="1577028604307" expanded="true" signature="3984:4238" ph="..." />
+                <marker date="1577028604307" expanded="true" signature="4599:4860" ph="..." />
+                <marker date="1577028604307" expanded="true" signature="4628:4859" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="images.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Media/Resources/views/admin/form/images.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Media/Resources/sass/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8005">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -85,27 +544,17 @@
       <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="227" column="58" lean-forward="false" selection-start-line="227" selection-start-column="58" selection-end-line="227" selection-end-column="58" />
+            <state relative-caret-position="1158">
+              <caret line="227" column="12" lean-forward="false" selection-start-line="227" selection-start-column="12" selection-end-line="227" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/image.php">
+      <file leaf-file-name="HasMedia.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modules/Media/Models/Traits/HasMedia.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="70" lean-forward="false" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modules.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/modules.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2548">
+            <state relative-caret-position="-593">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -117,32 +566,81 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>btn-toggle</find>
+      <find>slu</find>
+      <find>script</find>
+      <find>adminlte</find>
+      <find>User Image</find>
+      <find>to</find>
+      <find>settings</find>
+      <find>active</find>
+      <find>id=&quot;app&quot;</find>
+      <find>array_se</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/resources/views/adminlte.blade.php" />
         <option value="$PROJECT_DIR$/config/adminlte.php" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/webpack.mix.js" />
-        <option value="$PROJECT_DIR$/Modules/Admin/Providers/RouteServiceProvider.php" />
-        <option value="$PROJECT_DIR$/Modules/Media/merge.mix.js" />
-        <option value="$PROJECT_DIR$/Modules/Admin/webpack.mix.js" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Routes/web.php" />
+        <option value="$PROJECT_DIR$/vendor/jeroennoten/laravel-adminlte/resources/views/master.blade.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/adminlte.blade.php" />
-        <option value="$PROJECT_DIR$/Modules/Admin/Resources/assets/sass/app.scss" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/admin/layouts/partials/navbar.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/admin/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/master.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/meta.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/search.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/nav_links.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/nav_right.blade.php" />
+        <option value="$PROJECT_DIR$/.env.example" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/user_panel.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/breadcrumbs.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/right_sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/parts/datatable/actions.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Category/Routes/web.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/parts/datatable/toggle.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/parts/datatable/datatable.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/assets/js/notifications.js" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/footer.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Category/Config/config.php" />
+        <option value="$PROJECT_DIR$/Modules/Category/Providers/CategoryServiceProvider.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/nav_left_menu.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Providers/AdminServiceProvider.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/menu/list.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/menu/item.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Category/Database/Migrations/2019_12_17_175447_create_categories_table.php" />
+        <option value="$PROJECT_DIR$/Modules/Category/Resources/views/admin/index.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/input.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Config/menu.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/richeditor.blade.php" />
         <option value="$PROJECT_DIR$/Modules/Admin/Resources/assets/js/app.js" />
-        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/Modules/Category/Http/Controllers/CategoryController.php" />
+        <option value="$PROJECT_DIR$/Modules/Category/Http/Requests/CategoryRequest.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/checkbox.blade.php" />
+        <option value="$PROJECT_DIR$/app/Models/Traits/HasDynamicRelations.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/assets/sass/app.scss" />
+        <option value="$PROJECT_DIR$/Modules/Media/Routes/web.php" />
         <option value="$PROJECT_DIR$/config/image.php" />
+        <option value="$PROJECT_DIR$/Modules/Media/Models/Image.php" />
+        <option value="$PROJECT_DIR$/Modules/Media/Observers/ImageObserver.php" />
+        <option value="$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/master.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Category/Entities/Category.php" />
+        <option value="$PROJECT_DIR$/Modules/Media/Resources/views/admin/form/images.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Category/Resources/views/admin/form.blade.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
     <package-json value="$PROJECT_DIR$/package.json" />
+    <package-json value="$PROJECT_DIR$/Modules/Admin/package.json" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -164,6 +662,9 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -179,7 +680,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -189,6 +689,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,7 +786,167 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Media" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Media" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Media" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Media" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Observers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Media" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Media" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Traits" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,6 +1041,10 @@
               <option name="myItemId" value="Modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Category" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -356,17 +1056,270 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Category" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Category" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Category" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Category" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Category" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Category" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entities" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="estore" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -380,8 +1333,8 @@
       <recent name="C:\openserver\OSPanel\domains\estore\resources\vendor\adminlte" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\openserver\OSPanel\domains\estore\Modules\Admin\Resources\views" />
       <recent name="C:\openserver\OSPanel\domains\estore\Modules\Admin\Resources\views\layouts" />
+      <recent name="C:\openserver\OSPanel\domains\estore\Modules\Admin\Resources\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -490,8 +1443,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="npm.dev" />
-        <item index="1" class="java.lang.String" itemvalue="npm.dev (1)" />
+        <item index="0" class="java.lang.String" itemvalue="npm.dev (1)" />
+        <item index="1" class="java.lang.String" itemvalue="npm.dev" />
       </list>
     </recent_temporary>
   </component>
@@ -507,33 +1460,69 @@
       <updated>1576511333445</updated>
       <workItem from="1576511334743" duration="3546000" />
       <workItem from="1576515532431" duration="11459000" />
+      <workItem from="1576602098321" duration="511000" />
+      <workItem from="1576602628602" duration="14450000" />
+      <workItem from="1576684204877" duration="10689000" />
+      <workItem from="1576696401758" duration="177000" />
+      <workItem from="1576696678885" duration="19000" />
+      <workItem from="1576696700683" duration="102000" />
+      <workItem from="1576696919738" duration="287000" />
+      <workItem from="1576697426435" duration="2628000" />
+      <workItem from="1576700233842" duration="2124000" />
+      <workItem from="1576770715245" duration="2321000" />
+      <workItem from="1576773104244" duration="704000" />
+      <workItem from="1576773864264" duration="40000" />
+      <workItem from="1576773920753" duration="1152000" />
+      <workItem from="1576775112702" duration="261000" />
+      <workItem from="1576775394619" duration="278000" />
+      <workItem from="1576775703310" duration="1349000" />
+      <workItem from="1576777158560" duration="115000" />
+      <workItem from="1576777314039" duration="2323000" />
+      <workItem from="1576779895660" duration="778000" />
+      <workItem from="1576780948848" duration="504000" />
+      <workItem from="1576781485197" duration="111000" />
+      <workItem from="1576781614009" duration="1287000" />
+      <workItem from="1576859277369" duration="1758000" />
+      <workItem from="1576861083288" duration="411000" />
+      <workItem from="1576861522203" duration="6443000" />
+      <workItem from="1577006831764" duration="10000" />
+      <workItem from="1577015538438" duration="1487000" />
+      <workItem from="1577017113351" duration="6920000" />
     </task>
+    <task id="LOCAL-00001" summary="com rich">
+      <created>1576862200928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576862200928</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15005000" />
+    <option name="totallyTimeSpent" value="74244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20042644" sideWeight="0.73022753" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18176973" sideWeight="0.54471546" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18230277" sideWeight="0.45528457" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3336945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17697228" sideWeight="0.26977247" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -543,29 +1532,284 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="base" />
+    <MESSAGE value="com rich" />
+    <option name="LAST_COMMIT_MESSAGE" value="com rich" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/ui/src/Auth/bootstrap-stubs/auth/login.stub">
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Config/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/ui/src/Auth/stubs/controllers/HomeController.stub">
+    <entry file="file://$PROJECT_DIR$/config/modules.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="98" column="22" lean-forward="false" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Category/Config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Category/Providers/CategoryServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="44" column="67" lean-forward="false" selection-start-line="44" selection-start-column="67" selection-end-line="44" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/parts/datatable/datatable.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/nav_left_menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/menu/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/parts/menu/item.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/watson/active/src/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Providers/AdminServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Category/Resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/ui/src/Presets/Vue.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Category/Database/Migrations/2019_12_17_175447_create_categories_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
+        <state relative-caret-position="306">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Category/Resources/views/admin/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="99" lean-forward="false" selection-start-line="12" selection-start-column="88" selection-end-line="12" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/index.blade.php" />
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/vue-select.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/assets/js/components/VueSelect.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/admin-lte/dist/css/adminlte.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/admin-lte/dist/css/alt/adminlte.components.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40106">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/admin-lte/dist/css/alt/adminlte.plugins.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20008">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/admin-lte/dist/css/adminlte.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/richeditor.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Config/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/admin-lte/plugins/bootstrap-switch/js/bootstrap-switch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="763" column="27" lean-forward="false" selection-start-line="763" selection-start-column="21" selection-end-line="763" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/input.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Traits/HasBootEvents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/checkbox.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Category/Http/Controllers/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="56" column="35" lean-forward="false" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Category/Http/Requests/CategoryRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/BaseModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-509">
+          <caret line="144" column="43" lean-forward="false" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Traits/HasDynamicRelations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Category/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/assets/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Media/Routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -577,133 +1821,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1158">
+          <caret line="227" column="12" lean-forward="false" selection-start-line="227" selection-start-column="12" selection-end-line="227" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Media/Http/Controllers/Admin/ImagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1576518777936" expanded="true" signature="402:466" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/package.json">
+    <entry file="file://$PROJECT_DIR$/Modules/Media/Models/Image.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="922">
+          <caret line="185" column="12" lean-forward="false" selection-start-line="185" selection-start-column="12" selection-end-line="185" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/adminlte/partials/menu-item.blade.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Media/Observers/ImageObserver.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/adminlte/page.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/adminlte/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Traits/HasBootEvents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/BaseModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="e#30#66#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Media/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Media/Resources/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Media/Config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/jeroennoten/laravel-adminlte/config/adminlte.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Media/Resources/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/jeroennoten/laravel-adminlte/resources/views/plugins.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-8005">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -711,266 +1887,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/jeroennoten/laravel-adminlte/resources/views/login.blade.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Category/Resources/views/admin/form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="6" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="393">
+          <caret line="85" column="29" lean-forward="false" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
+          <folding>
+            <marker date="1577028604307" expanded="true" signature="1324:1520" ph="..." />
+            <marker date="1577028604307" expanded="true" signature="1352:1519" ph="..." />
+            <marker date="1577028604307" expanded="true" signature="1794:1975" ph="..." />
+            <marker date="1577028604307" expanded="true" signature="1822:1974" ph="..." />
+            <marker date="1577028604307" expanded="true" signature="2858:3110" ph="..." />
+            <marker date="1577028604307" expanded="true" signature="2886:3109" ph="..." />
+            <marker date="1577028604307" expanded="true" signature="3470:3668" ph="..." />
+            <marker date="1577028604307" expanded="false" signature="3503:3667" ph="..." />
+            <marker date="1577028604307" expanded="true" signature="3953:4239" ph="..." />
+            <marker date="1577028604307" expanded="true" signature="3984:4238" ph="..." />
+            <marker date="1577028604307" expanded="true" signature="4599:4860" ph="..." />
+            <marker date="1577028604307" expanded="true" signature="4628:4859" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Modules/Media/Resources/views/admin/form/images.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="82" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="82" />
+        <state relative-caret-position="70">
+          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Media/webpack.mix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Media/merge.mix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="82" lean-forward="false" selection-start-line="2" selection-start-column="82" selection-end-line="2" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/webpack.mix.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="78" lean-forward="false" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/jeroennoten/laravel-adminlte/resources/views/page.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1576512019530" expanded="false" signature="107:3014" ph="..." />
-            <marker date="1576512019530" expanded="true" signature="3026:3353" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/jeroennoten/laravel-adminlte/resources/views/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/adminlte.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="309" column="29" lean-forward="false" selection-start-line="309" selection-start-column="24" selection-end-line="309" selection-end-column="29" />
-          <folding>
-            <element signature="e#5491#7905#1#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Media/Resources/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-419">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/assets/js/notifications.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1734">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/layouts/adminlte.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/assets/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/parts/datatable/link.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="73" lean-forward="false" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/parts/datatable/toggle.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="52" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/parts/datatable/datatable.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/parts/datatable/actions.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/assets/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/input.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/datetimepicker.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/vue-select.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1681">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1544423686882" expanded="true" signature="9:1636" ph=" Опции инпута ..." />
-            <marker date="1544423686882" expanded="true" signature="2116:2268" ph="..." />
-            <marker date="1544423686882" expanded="true" signature="2274:2737" ph=" Обрабатываем случаи, когда начальное значение идет без колонкци с лейблом, а в опциях лейблы есть.  ..." />
-            <marker date="1544423686882" expanded="true" signature="2781:3478" ph="..." />
-            <marker date="1544423686882" expanded="true" signature="2898:3168" ph="..." />
-            <marker date="1544423686882" expanded="true" signature="3004:3127" ph="..." />
-            <marker date="1544423686882" expanded="true" signature="3192:3292" ph="..." />
-            <marker date="1544423686882" expanded="true" signature="3236:3286" ph="..." />
-            <marker date="1544423686882" expanded="true" signature="3305:3476" ph="..." />
-            <marker date="1544423686882" expanded="true" signature="3350:3470" ph="..." />
-            <marker date="1544423686882" expanded="true" signature="3396:3460" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Admin/Resources/views/parts/form/richeditor.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="227" column="58" lean-forward="false" selection-start-line="227" selection-start-column="58" selection-end-line="227" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/modules.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2548">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/image.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="70" lean-forward="false" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Media/Http/Controllers/MediaController.php">
+    <entry file="file://$PROJECT_DIR$/Modules/Category/Entities/Category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Media/Models/Image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="148" column="57" lean-forward="true" selection-start-line="148" selection-start-column="57" selection-end-line="148" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Media/Routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Modules/Media/Http/Controllers/Admin/ImagesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="e#45#70#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -19,6 +19,9 @@ class AdminServiceProvider extends ServiceProvider
         $this->registerViews();
         $this->registerFactories();
         $this->loadMigrationsFrom(module_path('Admin', 'Database/Migrations'));
+        view()->composer('admin::layouts.parts.nav_left_menu', function($view){
+            $view->with('menus', config('menu'));
+        });
     }
 
     /**
@@ -43,6 +46,9 @@ class AdminServiceProvider extends ServiceProvider
         ], 'config');
         $this->mergeConfigFrom(
             module_path('Admin', 'Config/config.php'), 'admin'
+        );
+        $this->mergeConfigFrom(
+            module_path('Admin', 'Config/menu.php'), 'menu'
         );
     }
 

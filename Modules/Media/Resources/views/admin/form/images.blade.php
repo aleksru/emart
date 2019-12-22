@@ -6,26 +6,26 @@
 @php ($modelClass = str_replace('\\', '\\\\', get_class($model))) @endphp
 @php ($single = $model->getMedia()[$name]['single'] ?? false) @endphp
 
-@pushonce('css', 'dropzone')
+@push('css')
     <link href="{{asset('compiled/css/modules/media/app.css')}}" rel="stylesheet">
-@endpushonce
+@endpush
 
 <div class="form-group {{ $errors->first($name) ? 'has-errors' : '' }}">
-    <label for="{{ $name }}" class="col-sm-2 control-label">
+    <label>
         {{ $label ?? '' }}
     </label>
-    <div class="col-sm-8">
+    {{--<div class="col-sm-8">--}}
         <div id="dropzone-{{ $name }}" style="width: 100%; min-height: 200px;">
             <div class="dz-message needsclick">
                 Добавьте или перетащите файлы для загрузки.
             </div>
         </div>
-    </div>
+    {{--</div>--}}
 </div>
 
-@pushonce('script', 'dropzone')
+@push('script')
     <script src="{{ asset('compiled/js/modules/media/app.js') }}"></script>
-@endpushonce
+@endpush
 
 @push('script')
     <script>
