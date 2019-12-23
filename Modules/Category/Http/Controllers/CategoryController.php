@@ -7,6 +7,7 @@ use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
 use Modules\Category\Entities\Category;
 use Modules\Category\Http\Requests\CategoryRequest;
+use Modules\Category\Repository\CategoryRepository;
 use Nwidart\Modules\Facades\Module;
 
 class CategoryController extends Controller
@@ -16,7 +17,9 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        return view('category::admin.index');
+        $categories = (new CategoryRepository())->buildTree();
+        debug($categories);
+        return view('category::admin.index', compact('categories'));
     }
 
     /**
@@ -54,7 +57,6 @@ class CategoryController extends Controller
      */
     public function update(CategoryRequest $categoryRequest, Category $category)
     {
-        debug($categoryRequest->all());
         $category->update($categoryRequest->validated());
         return redirect()->route('admin.category.edit', $category->slug)->with('success', 'Успешно сохранено!');
     }
@@ -75,7 +77,7 @@ class CategoryController extends Controller
      */
     public function datatable()
     {
-        return datatables()->of(Category::query())
+        return datatables()->of(Category::query()->withTrashed())
             ->editColumn('actions', function (Category $category) {
                 return view('admin::parts.datatable.actions', [
                     'edit' => [
@@ -95,10 +97,17 @@ class CategoryController extends Controller
                     'check' => $category->is_active
                 ]);
             })
+            ->editColumn('deleted_at', function (Category $category) {
+                return view('admin::parts.datatable.toggle', [
+                    'route' => route('admin.category.toggle_deleted_at', ['id' => $category->id]),
+                    'id'    => $category->id,
+                    'check' => $category->deleted_at
+                ]);
+            })
             ->editColumn('parent_id', function (Category $category) {
                 return $category->parent ? $category->parent->name : 'Корневая';
             })
-            ->rawColumns(['actions'])
+            ->rawColumns(['actions', 'deleted_at'])
             ->make(true);
     }
 
@@ -110,6 +119,23 @@ class CategoryController extends Controller
     {
         $category->is_active = !$category->is_active;
         $category->save();
+
+        return \response()->json(['message' => 'Успешно изменено!']);
+    }
+
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function toggleDeletedAt(Request $request)
+    {
+        if(!$category = Category::withTrashed()->find($request->get('id'))){
+            return \response()->json(['error' => 'Не найден ID!']);
+        }
+        if(!$category->deleted_at){
+            return \response()->json(['error' => 'Категория не удалена!']);
+        }
+        $category->restore();
 
         return \response()->json(['message' => 'Успешно изменено!']);
     }

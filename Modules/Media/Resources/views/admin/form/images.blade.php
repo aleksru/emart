@@ -14,13 +14,11 @@
     <label>
         {{ $label ?? '' }}
     </label>
-    {{--<div class="col-sm-8">--}}
-        <div id="dropzone-{{ $name }}" style="width: 100%; min-height: 200px;">
-            <div class="dz-message needsclick">
-                Добавьте или перетащите файлы для загрузки.
-            </div>
+    <div id="dropzone-{{ $name }}" style="width: 100%; min-height: 200px;">
+        <div class="dz-message needsclick">
+            Добавьте или перетащите файлы для загрузки.
         </div>
-    {{--</div>--}}
+    </div>
 </div>
 
 @push('script')

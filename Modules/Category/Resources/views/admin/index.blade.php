@@ -42,8 +42,13 @@
                                 'width' => '20%',
                                 'searchable' => false,
                             ],
+                            'deleted_at' => [
+                                'name' => 'Удалено',
+                                'width' => '5%',
+                                'searchable' => false,
+                            ],
                             'is_active' => [
-                                'name' => 'Отображение',
+                                'name' => 'Включена',
                                 'width' => '5%',
                                 'searchable' => false,
                             ],
@@ -54,6 +59,31 @@
                             ],
                         ],
                     ])
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="card card-primary">
+                <div class="card-header">
+                    <h3 class="card-title">Древо категорий</h3>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        @php
+                            $traverse = function ($categories) use (&$traverse) {
+                                foreach ($categories as $category) {
+                                    echo '<li>' . '<a href="'.route('admin.category.edit', $category->slug).'" target="_blank">' . $category->name . '</a>';
+                                    if(!$category->children->isEmpty()){
+                                        echo '<ul>';
+                                            $traverse($category->children);
+                                        echo '</ul>';
+                                    }
+                                    echo '</li>';
+                                 }
+                            };
+                            $traverse($categories)
+                        @endphp
+                    </ul>
                 </div>
             </div>
         </div>

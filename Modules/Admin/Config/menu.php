@@ -3,7 +3,7 @@ return [
     'catalog' => [
         'name'  => 'Каталог',
         'route' => '#',
-        'icon'  => 'nav-icon fas fa-tachometer-alt',
+        'icon'  => 'nav-icon fas fa-tags',
         'active' => [
             'admin.category.index',
             'admin.category.edit',

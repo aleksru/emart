@@ -23,4 +23,5 @@ Route::group([
     Route::resource('category', 'CategoryController')->except(['show']);
     Route::get('category/datatable', 'CategoryController@datatable')->name('category.datatable');
     Route::post('toggle-is-active/{category}', 'CategoryController@toggleActive')->name('category.toggle_is_active');
+    Route::post('toggle-deleted-at', 'CategoryController@toggleDeletedAt')->name('category.toggle_deleted_at');
 });

@@ -1,5 +1,6 @@
 {
     "Admin": true,
     "Category": true,
-    "Media": true
+    "Media": true,
+    "Seo": true
 }

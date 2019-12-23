@@ -10,6 +10,7 @@
            value="{{ $slot }}"
            placeholder="{{ $placeholder ?? '' }}"
            @if (!empty($step)) step="{{ $step }}" @endif
+           @if (($type ?? null) == 'number') min="{{ $min ?? 0 }}" max="{{ $max ?? '' }}"@endif
            @isset($disabled) disabled @endisset>
     @if ($errors->first($name))
         <span class="glyphicon form-control-feedback" class="glyphicon-remove"></span>

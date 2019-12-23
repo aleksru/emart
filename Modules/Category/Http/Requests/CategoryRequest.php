@@ -21,8 +21,9 @@ class CategoryRequest extends FormRequest
             'name'      => 'required|string',
             'slug'      => 'required|string|unique:categories,slug' . $slug,
             'description' => 'string|nullable',
-            'ordering'  => 'integer|nullable',
+            'ordering'  => 'integer|nullable|min:0',
             'is_active'  => 'string|nullable',
+            'seo'  => '',
         ];
     }
 

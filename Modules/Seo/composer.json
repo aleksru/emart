@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/seo",
+    "description": "",
+    "authors": [
+        {
+            "name": "Lets Fly",
+            "email": ""
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Seo\\Providers\\SeoServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Seo\\": ""
+        }
+    }
+}
