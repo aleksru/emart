@@ -7,7 +7,10 @@ return [
         'active' => [
             'admin.category.index',
             'admin.category.edit',
-            'admin.category.create'
+            'admin.category.create',
+            'admin.product.index',
+            'admin.product.edit',
+            'admin.product.create'
         ],
         'sub_categories' => [
             [
@@ -21,10 +24,16 @@ return [
             ],
             [
                 'name'  => 'Товары',
-                'active' => []
+                'route' => 'admin.product.index',
+                'active' => [
+                    'admin.product.index',
+                    'admin.product.edit',
+                    'admin.product.create'
+                ]
             ],
         ]
     ],
+
     'test' => [
         'name'  => 'Test',
         'icon'  => 'nav-icon fas fa-th',

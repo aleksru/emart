@@ -1,13 +1,13 @@
 @extends('admin::layouts.master')
 
 @section('title')
-    <h1 class="m-0 text-dark">Редактирование категории</h1>
+    <h1 class="m-0 text-dark">Редактирование товара</h1>
 @stop
 
 @section('content')
     <div class="container-fluid">
         <div class="row">
-            <a href="{{route('admin.category.index')}}" class="btn btn-secondary text-white float-left" style="margin-bottom: 1rem;">Назад</a>
+            <a href="{{route('admin.product.index')}}" class="btn btn-secondary text-white float-left" style="margin-bottom: 1rem;">Назад</a>
         </div>
         <div class="row">
             <!-- right column -->
@@ -17,6 +17,15 @@
                     <div class="card-header">
                         <h3 class="card-title"></h3>
                     </div>
+                    @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
                     <!-- /.card-header -->
                     <div class="card-body">
                         <div class="row">
@@ -30,21 +39,40 @@
                             </div>
                             <div class="col-8 col-sm-10">
                                 <form id="form-category" role="form" method="POST" action="
-                                    {{isset($category) ? route('admin.category.update', $category->slug) : route('admin.category.store')}}"
+                                    {{isset($product) ? route('admin.product.update', $product->slug) : route('admin.product.store')}}"
                                 >
                                     @csrf
-                                    @if(isset($category))
+                                    @if(isset($product))
                                         @method('PUT')
                                     @endif
                                     <div class="tab-content" id="vert-tabs-tabContent">
                                         <div class="tab-pane text-left fade active show" id="vert-tabs-home" role="tabpanel" aria-labelledby="vert-tabs-home-tab">
                                             <div class="row">
-                                                <div class="col-6">
+                                                <div class="col-4">
                                                     @component('admin::parts.form.checkbox', [
                                                         'name' => 'is_active',
                                                         'label' => 'Включить/Отключить',
-                                                        'initState' => $category->is_active ?? 1
+                                                        'initState' => $product->is_active ?? 1
                                                     ])
+                                                    @endcomponent
+                                                </div>
+                                                <div class="col-4">
+                                                    @component('admin::parts.form.input', [
+                                                        'name' => 'sku',
+                                                        'label' => 'Артикул'
+                                                    ])
+                                                        {{ old('sku', $product->sku ?? '') }}
+                                                    @endcomponent
+                                                </div>
+                                                <div class="col-4">
+                                                    @component('admin::parts.form.input', [
+                                                        'name' => 'price',
+                                                        'label' => 'Цена',
+                                                        'min' => 0,
+                                                        'type' => 'number',
+                                                        'step' => "any"
+                                                    ])
+                                                        {{ old('price', $product->price ?? '') }}
                                                     @endcomponent
                                                 </div>
                                             </div>
@@ -52,9 +80,9 @@
                                                 <div class="col-sm-6">
                                                     @component('admin::parts.form.input', [
                                                         'name' => 'name',
-                                                        'label' => 'Название категории'
+                                                        'label' => 'Название товара'
                                                     ])
-                                                        {{ old('name', $category->name ?? '') }}
+                                                        {{ old('name', $product->name ?? '') }}
                                                     @endcomponent
                                                 </div>
                                                 <div class="col-sm-6">
@@ -62,7 +90,7 @@
                                                         'name' => 'slug',
                                                         'label' => 'URI'
                                                     ])
-                                                        {{ old('slug', $category->slug ?? '') }}
+                                                        {{ old('slug', $product->slug ?? '') }}
                                                     @endcomponent
                                                 </div>
                                             </div>
@@ -70,24 +98,42 @@
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <label>
-                                                            Родительская категория
+                                                            Категория
                                                         </label>
-                                                        <select class="form-control js-example-categories-single" name="parent_id">
-                                                            <option value="0">Корневая</option>
-                                                            @if($category->parent ?? false)
-                                                                <option value="{{$category->parent->id}}" selected>{{$category->parent->name}}</option>
+                                                        <select class="form-control js-example-categories-single" name="category_id">
+                                                            <option value="">Не выбрана</option>
+                                                            @if($product->category ?? false)
+                                                                <option value="{{$product->category->id}}" selected>{{$product->category->name}}</option>
                                                             @endif
                                                         </select>
+                                                        @error('category_id')
+                                                            <span class="glyphicon form-control-feedback" class="glyphicon-remove"></span>
+                                                            <span class="help-block">
+                                                                <strong class="text-danger">{{ $message }}</strong>
+                                                            </span>
+                                                        @enderror
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6">
                                                     @component('admin::parts.form.input', [
-                                                        'name' => 'ordering',
+                                                        'name' => 'sorting',
                                                         'label' => 'Сортировка',
                                                         'type' => 'number',
                                                         'min' => 0
                                                     ])
-                                                        {{ old('ordering', $category->ordering ?? '') }}
+                                                        {{ old('sorting', $product->sorting ?? '') }}
+                                                    @endcomponent
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    @component('admin::parts.form.input', [
+                                                        'name' => 'quantity',
+                                                        'label' => 'Количество',
+                                                        'type' => 'number',
+                                                        'min' => 0
+                                                    ])
+                                                        {{ old('quantity', $product->quantity ?? '') }}
                                                     @endcomponent
                                                 </div>
                                             </div>
@@ -97,7 +143,7 @@
                                                         'name' => 'description',
                                                         'label' => 'Описание'
                                                     ])
-                                                        {{ old('description', $category->description ?? '') }}
+                                                        {{ old('description', $product->description ?? '') }}
                                                     @endcomponent
                                                 </div>
                                             </div>
@@ -105,8 +151,8 @@
                                                 <div class="col-6">
                                                     @component('media::admin.form.images', [
                                                         'name' => 'image',
-                                                        'model' => $category ?? null,
-                                                        'label' => 'Изображение'
+                                                        'model' => $product ?? null,
+                                                        'label' => 'Изображения'
                                                     ])
                                                     @endcomponent
                                                 </div>
@@ -116,7 +162,7 @@
                                             <div class="row">
                                                 <div class="col-12">
                                                     @component('seo::admin.form.seo', [
-                                                        'model' => $category ?? null,
+                                                        'model' => $product ?? null,
                                                     ])
                                                     @endcomponent
                                                 </div>

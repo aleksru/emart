@@ -9,6 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
+        "caouecs/laravel-lang": "~4.0",
         "fideloper/proxy": "^4.0",
         "intervention/image": "^2.5",
         "kalnoy/nestedset": "^5.0",

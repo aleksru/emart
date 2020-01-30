@@ -2,5 +2,6 @@
     "Admin": true,
     "Category": true,
     "Media": true,
-    "Seo": true
+    "Seo": true,
+    "Product": true
 }

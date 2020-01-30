@@ -18,7 +18,6 @@ class CategoryController extends Controller
     public function index()
     {
         $categories = (new CategoryRepository())->buildTree();
-        debug($categories);
         return view('category::admin.index', compact('categories'));
     }
 

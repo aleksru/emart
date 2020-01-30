@@ -11,11 +11,14 @@
 |
 */
 
+
 Route::group([
     //'middleware' => ['web', 'auth', 'role:admin'],
     'prefix' => 'admin',
-    //'namespace' => 'Modules\Category\Http\Controllers',
+    //'namespace' => 'Modules\Product\Http\Controllers',
     'as' => 'admin.'
 ], function() {
-    Route::get('/', 'AdminController@index')->name('index');
+    Route::resource('product', 'ProductController')->except(['show']);
+    Route::get('product/datatable', 'ProductController@datatable')->name('product.datatable');
+    Route::post('toggle-product/{product}', 'ProductController@toggleActive')->name('product.toggle_is_active');
 });

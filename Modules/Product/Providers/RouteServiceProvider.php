@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Admin\Providers;
+namespace Modules\Product\Providers;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -12,7 +12,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $moduleNamespace = 'Modules\Admin\Http\Controllers';
+    protected $moduleNamespace = 'Modules\Product\Http\Controllers';
 
     /**
      * Called before routes are registered.
@@ -33,8 +33,8 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function map()
     {
-//        $this->mapApiRoutes();
-//
+        $this->mapApiRoutes();
+
         $this->mapWebRoutes();
     }
 
@@ -49,7 +49,7 @@ class RouteServiceProvider extends ServiceProvider
     {
         Route::middleware('web')
             ->namespace($this->moduleNamespace)
-            ->group(module_path('Admin', '/Routes/web.php'));
+            ->group(module_path('Product', '/Routes/web.php'));
     }
 
     /**
@@ -61,9 +61,9 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected function mapApiRoutes()
     {
-//        Route::prefix('api')
-//            ->middleware('api')
-//            ->namespace($this->moduleNamespace)
-//            ->group(module_path('Admin', '/Routes/api.php'));
+        Route::prefix('api')
+            ->middleware('api')
+            ->namespace($this->moduleNamespace)
+            ->group(module_path('Product', '/Routes/api.php'));
     }
 }
